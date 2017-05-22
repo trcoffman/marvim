@@ -1,0 +1,1 @@
+:%s/\(^.\+\n\)\(\n\_^#pragma once\n\)/\1\r\2/e | %s/\(^#pragma once\n\n\)\(\_^.\+\)/\1\r\2/e
