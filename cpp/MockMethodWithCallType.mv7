@@ -1,0 +1,1 @@
+^v/;:s/virtual //egv:s/ = 0//egv:s/\(\S\+\)\_s\+\(\S\+\)\_s\+\(\h\w*\)\((\_.*)\);/MOCK_METHOD_WITH_CALLTYPE(\2, \3, \1\4);/g:nohl`<2f_h
